@@ -1,0 +1,302 @@
+{
+  "DepthWizard_B/backend/app/__init__.py": {
+    "mtime": 1788530180.8798864,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/core/__init__.py": {
+    "mtime": 1788530180.881886,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/core/config.py": {
+    "mtime": 1788529934.1348152,
+    "seen": 1788531807.2216842,
+    "ast_hash": "b0012f1dbfb0cf6cb7105caa7c5b6af4",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/assam/metadata.json": {
+    "mtime": 1788530203.756259,
+    "seen": 1788531807.2216842,
+    "ast_hash": "1be46ff3538a739b5c3883bace7acce2",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/hyderabad/metadata.json": {
+    "mtime": 1788530203.5660603,
+    "seen": 1788531807.2216842,
+    "ast_hash": "c6f995cc4aba1d7bc4c43f89ffb6ed0c",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/leh/metadata.json": {
+    "mtime": 1788530203.3164804,
+    "seen": 1788531807.2216842,
+    "ast_hash": "9b08dc6d5cfe5f3aa136f5befec7f008",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/main.py": {
+    "mtime": 1788530524.898491,
+    "seen": 1788531807.2216842,
+    "ast_hash": "3cd5bdda008a079c13de064ef526d83e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/models/__init__.py": {
+    "mtime": 1788530180.8828883,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/models/db.py": {
+    "mtime": 1788530023.018208,
+    "seen": 1788531807.2216842,
+    "ast_hash": "457d496812ae87cc02f3e1f936474fe6",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/routers/__init__.py": {
+    "mtime": 1788530180.883898,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/routers/presets.py": {
+    "mtime": 1788530497.8738034,
+    "seen": 1788531807.2216842,
+    "ast_hash": "448d52b22cc557b48d5a76a13e8fd79e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/routers/reconstruct.py": {
+    "mtime": 1788533425.0287008,
+    "seen": 1788533489.1550546,
+    "ast_hash": "d6141d72bfdcc3b47166189ae4d2a1ea",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/services/__init__.py": {
+    "mtime": 1788530180.8828883,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/services/calibrator.py": {
+    "mtime": 1788530071.5656426,
+    "seen": 1788531807.2216842,
+    "ast_hash": "2bc37b3a2b97a4283da8825e6dd9af5d",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/services/export.py": {
+    "mtime": 1788530428.3649654,
+    "seen": 1788531807.2216842,
+    "ast_hash": "44a8f4a0bf96d860b869ec142a1509d9",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/services/inference.py": {
+    "mtime": 1788530070.3283045,
+    "seen": 1788531807.2216842,
+    "ast_hash": "ee59fcc8f78e3220bbbc6af2916e0410",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/services/water_leveling.py": {
+    "mtime": 1788530427.418958,
+    "seen": 1788531807.2216842,
+    "ast_hash": "0cb3a99a958b4dfcb2af454114ad15a4",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/eslint.config.js": {
+    "mtime": 1788531240.8103878,
+    "seen": 1788531807.2216842,
+    "ast_hash": "3aa4b57d7f08181d86bde52a4dcb7f22",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/package.json": {
+    "mtime": 1788531550.1025393,
+    "seen": 1788531807.2216842,
+    "ast_hash": "29361bd99dc84e1673affc0e1d1b007f",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/postcss.config.js": {
+    "mtime": 1788531563.8536985,
+    "seen": 1788531807.2216842,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/App.jsx": {
+    "mtime": 1788533460.500669,
+    "seen": 1788533489.1550546,
+    "ast_hash": "a24a797a983d4bf11e1fc31e129d4a7d",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/TopoCrossSection.jsx": {
+    "mtime": 1788531762.6235933,
+    "seen": 1788531807.2216842,
+    "ast_hash": "c97d6c02e317c45e74d267ba76fc8a5c",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/ValidationHUD.jsx": {
+    "mtime": 1788531746.675567,
+    "seen": 1788531807.2216842,
+    "ast_hash": "71f27b35b895bfbd06cc3717ae822479",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/lib/api.js": {
+    "mtime": 1788533435.3474941,
+    "seen": 1788533489.1550546,
+    "ast_hash": "0312f1d4aa89f6f84d53633d6c171399",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/main.jsx": {
+    "mtime": 1788531195.0204115,
+    "seen": 1788531807.2216842,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/tailwind.config.js": {
+    "mtime": 1788531720.7544787,
+    "seen": 1788531807.2216842,
+    "ast_hash": "893ac54ae83f6e7cbb371523e2f5f7b5",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/vite.config.js": {
+    "mtime": 1788531194.9658713,
+    "seen": 1788531807.2216842,
+    "ast_hash": "5d54447744c19ccd28638a5c668d15ea",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/scripts/__init__.py": {
+    "mtime": 1788530180.883898,
+    "seen": 1788531807.2216842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/scripts/build_presets.py": {
+    "mtime": 1788530169.8960855,
+    "seen": 1788531807.2216842,
+    "ast_hash": "b5884a40341bc9ba80d558899c07fa61",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/scripts/smoke_test.py": {
+    "mtime": 1788530647.5587592,
+    "seen": 1788531807.2216842,
+    "ast_hash": "8850e56026b2e3dbcf628f85ef3d6661",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1788527858.70087,
+    "seen": 1788531807.2216842,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1788527858.7028852,
+    "seen": 1788531807.2216842,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1788527873.9179583,
+    "seen": 1788531807.2216842,
+    "ast_hash": "21ceb6533048be51308e69e7b74a35cf",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/README.md": {
+    "mtime": 1788531240.8216717,
+    "seen": 1788531807.2216842,
+    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/index.html": {
+    "mtime": 1788531240.7781365,
+    "seen": 1788531807.2216842,
+    "ast_hash": "89150e536c4a99f73625f46f41f0f437",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/requirements.txt": {
+    "mtime": 1788528449.7455914,
+    "seen": 1788531807.2216842,
+    "ast_hash": "b27e6271c78103d1993e6bbb7db94f66",
+    "semantic_hash": ""
+  },
+  "DepthWizard_PRD.md": {
+    "mtime": 1788506748.6477885,
+    "seen": 1788531807.2216842,
+    "ast_hash": "1a596625e804f639813024a329de83c7",
+    "semantic_hash": ""
+  },
+  "DepthWizard_PRD.pdf": {
+    "mtime": 1788506779.3239594,
+    "seen": 1788531807.2216842,
+    "ast_hash": "fcbb6bc8f4d02035d1acb136eecb39f8",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/assam/optical.png": {
+    "mtime": 1788530203.7543025,
+    "seen": 1788531807.2216842,
+    "ast_hash": "6ace61128bfc186ee319d314f6f225f0",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/hyderabad/optical.png": {
+    "mtime": 1788530203.5636778,
+    "seen": 1788531807.2216842,
+    "ast_hash": "ed07c438a867c7c7a2a4b057b4771aaf",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/backend/app/data/presets/leh/optical.png": {
+    "mtime": 1788530203.3140123,
+    "seen": 1788531807.2216842,
+    "ast_hash": "9736bffeb7f81d136510083502be7102",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/public/favicon.svg": {
+    "mtime": 1788531195.0826259,
+    "seen": 1788531807.2216842,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/public/icons.svg": {
+    "mtime": 1788531195.1069572,
+    "seen": 1788531807.2216842,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/assets/hero.png": {
+    "mtime": 1788531195.0476708,
+    "seen": 1788531807.2216842,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/assets/react.svg": {
+    "mtime": 1788531195.1291559,
+    "seen": 1788531807.2216842,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/assets/vite.svg": {
+    "mtime": 1788531195.151218,
+    "seen": 1788531807.2216842,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/Canvas3D.jsx": {
+    "mtime": 1788533354.9989233,
+    "seen": 1788533489.1550546,
+    "ast_hash": "77bd31d2f3d4ccfb2eea9fcdaca302c8",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/ElevationRuler.jsx": {
+    "mtime": 1788533334.194507,
+    "seen": 1788533489.1550546,
+    "ast_hash": "3a27a13361dbbf4ece6eb15088ae9e57",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/FlythroughController.jsx": {
+    "mtime": 1788533344.2010765,
+    "seen": 1788533489.1550546,
+    "ast_hash": "934cacacc913a6d33f0d71d59420495a",
+    "semantic_hash": ""
+  },
+  "DepthWizard_B/frontend/src/components/TerrainMesh.jsx": {
+    "mtime": 1788533314.3506346,
+    "seen": 1788533489.1550546,
+    "ast_hash": "37cfffa877cbea47a8de4c8d973cb191",
+    "semantic_hash": ""
+  }
+}
