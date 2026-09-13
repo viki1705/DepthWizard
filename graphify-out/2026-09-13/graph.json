@@ -53,7 +53,7 @@
       "file_type": "code",
       "norm_label": "_onnxsession",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L100"
+      "source_location": "L59"
     },
     {
       "id": "depthwizard_b_backend_app_services_calibrator_calibrate",
@@ -1001,7 +1001,7 @@
       "file_type": "code",
       "norm_label": "dummy_mode()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L462"
+      "source_location": "L413"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_edge_snap",
@@ -1013,19 +1013,7 @@
       "file_type": "code",
       "norm_label": "_edge_snap()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L204"
-    },
-    {
-      "id": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "label": "ensure_model_weights()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "inference.py",
-      "file_type": "code",
-      "norm_label": "ensure_model_weights()",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L65"
+      "source_location": "L155"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_infer_depth",
@@ -1037,7 +1025,7 @@
       "file_type": "code",
       "norm_label": "infer_depth()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L301"
+      "source_location": "L252"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_initialise",
@@ -1049,7 +1037,7 @@
       "file_type": "code",
       "norm_label": "initialise()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L290"
+      "source_location": "L241"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_onnxsession_is_ready",
@@ -1061,7 +1049,7 @@
       "file_type": "code",
       "norm_label": ".is_ready()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L154"
+      "source_location": "L105"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_onnxsession_load",
@@ -1073,7 +1061,7 @@
       "file_type": "code",
       "norm_label": ".load()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L107"
+      "source_location": "L66"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_onnxsession_run",
@@ -1085,7 +1073,7 @@
       "file_type": "code",
       "norm_label": ".run()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L158"
+      "source_location": "L109"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_percentile_stretch",
@@ -1097,7 +1085,7 @@
       "file_type": "code",
       "norm_label": "_percentile_stretch()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L187"
+      "source_location": "L138"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_preprocess",
@@ -1109,19 +1097,7 @@
       "file_type": "code",
       "norm_label": "_preprocess()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L175"
-    },
-    {
-      "id": "depthwizard_b_backend_app_services_inference_reporthook",
-      "label": "_reporthook()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "inference.py",
-      "file_type": "code",
-      "norm_label": "_reporthook()",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L51"
+      "source_location": "L126"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_sharpen_dsm_edges",
@@ -1133,7 +1109,7 @@
       "file_type": "code",
       "norm_label": "sharpen_dsm_edges()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L419"
+      "source_location": "L370"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_sharpen_urban_geometry",
@@ -1145,7 +1121,7 @@
       "file_type": "code",
       "norm_label": "sharpen_urban_geometry()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L350"
+      "source_location": "L301"
     },
     {
       "id": "depthwizard_b_backend_app_services_inference_synthetic_depth",
@@ -1157,7 +1133,7 @@
       "file_type": "code",
       "norm_label": "_synthetic_depth()",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L259"
+      "source_location": "L210"
     },
     {
       "id": "depthwizard_b_backend_scripts_sync_preset_elevations_generate_inferno_preview",
@@ -1205,7 +1181,7 @@
       "file_type": "code",
       "norm_label": "create_app()",
       "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L98"
+      "source_location": "L92"
     },
     {
       "id": "depthwizard_b_backend_app_main_lifespan",
@@ -3607,29 +3583,7 @@
       "source_location": "L1"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_101",
-      "label": "Lazy-loaded, process-level ONNX Runtime session.",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "inference.py",
-      "file_type": "rationale",
-      "norm_label": "lazy-loaded, process-level onnx runtime session.",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L101"
-    },
-    {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_108",
-      "label": "Attempt to load the ONNX model once. Sets _dummy_mode=True if the file is\u2026",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "inference.py",
-      "file_type": "rationale",
-      "norm_label": "attempt to load the onnx model once. sets _dummy_mode=true if the file is...",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L108"
-    },
-    {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_159",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_110",
       "label": "Forward pass \u2014 input must be float32 NCHW (1,3,518,518).",
       "_origin": "ast",
       "community": 5,
@@ -3637,10 +3591,10 @@
       "file_type": "rationale",
       "norm_label": "forward pass \u2014 input must be float32 nchw (1,3,518,518).",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L159"
+      "source_location": "L110"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_176",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_127",
       "label": "Resize to (518, 518), normalise to ImageNet stats, return NCHW float32. Guard 2\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3648,10 +3602,10 @@
       "file_type": "rationale",
       "norm_label": "resize to (518, 518), normalise to imagenet stats, return nchw float32. guard 2...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L176"
+      "source_location": "L127"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_188",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_139",
       "label": "Contrast-stretch depth to [0, 1] using 2%\u201398% percentile clipping. Produces d\u0302\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3659,10 +3613,10 @@
       "file_type": "rationale",
       "norm_label": "contrast-stretch depth to [0, 1] using 2%\u201398% percentile clipping. produces d...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L188"
+      "source_location": "L139"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_205",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_156",
       "label": "Apply guided-filter edge snapping using optical luminance as guide image. Snaps\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3670,10 +3624,10 @@
       "file_type": "rationale",
       "norm_label": "apply guided-filter edge snapping using optical luminance as guide image. snaps...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L205"
+      "source_location": "L156"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_260",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_211",
       "label": "Generate a plausible-looking synthetic depth map when the ONNX model is\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3681,10 +3635,10 @@
       "file_type": "rationale",
       "norm_label": "generate a plausible-looking synthetic depth map when the onnx model is...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L260"
+      "source_location": "L211"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_291",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_242",
       "label": "Load the ONNX model (or enter dummy mode). Should be called once at application\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3692,10 +3646,10 @@
       "file_type": "rationale",
       "norm_label": "load the onnx model (or enter dummy mode). should be called once at application...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L291"
+      "source_location": "L242"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_302",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_253",
       "label": "Run the full depth-inference + edge-snapping pipeline. Args: rgb_image: HxWx3\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3703,10 +3657,10 @@
       "file_type": "rationale",
       "norm_label": "run the full depth-inference + edge-snapping pipeline. args: rgb_image: hxwx3...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L302"
+      "source_location": "L253"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_351",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_302",
       "label": "Separates fused building footprints by cutting down shadow alleys, flattening\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3714,10 +3668,10 @@
       "file_type": "rationale",
       "norm_label": "separates fused building footprints by cutting down shadow alleys, flattening...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L351"
+      "source_location": "L302"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_426",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_377",
       "label": "Post-process a precomputed metric DSM array with: 1. Bilateral filter \u2014 smooths\u2026",
       "_origin": "ast",
       "community": 5,
@@ -3725,10 +3679,10 @@
       "file_type": "rationale",
       "norm_label": "post-process a precomputed metric dsm array with: 1. bilateral filter \u2014 smooths...",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L426"
+      "source_location": "L377"
     },
     {
-      "id": "depthwizard_b_backend_app_services_inference_rationale_463",
+      "id": "depthwizard_b_backend_app_services_inference_rationale_414",
       "label": "True if the service is running without a real ONNX model.",
       "_origin": "ast",
       "community": 5,
@@ -3736,7 +3690,29 @@
       "file_type": "rationale",
       "norm_label": "true if the service is running without a real onnx model.",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L463"
+      "source_location": "L414"
+    },
+    {
+      "id": "depthwizard_b_backend_app_services_inference_rationale_60",
+      "label": "Lazy-loaded, process-level ONNX Runtime session.",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "inference.py",
+      "file_type": "rationale",
+      "norm_label": "lazy-loaded, process-level onnx runtime session.",
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "depthwizard_b_backend_app_services_inference_rationale_67",
+      "label": "Attempt to load the ONNX model once. Sets _dummy_mode=True if the file is\u2026",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "inference.py",
+      "file_type": "rationale",
+      "norm_label": "attempt to load the onnx model once. sets _dummy_mode=true if the file is...",
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L67"
     },
     {
       "id": "depthwizard_b_backend_scripts_sync_preset_elevations_rationale_1",
@@ -5044,7 +5020,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L99",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -5073,18 +5049,6 @@
     },
     {
       "source": "depthwizard_b_backend_app_main_lifespan",
-      "target": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L77",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_main_lifespan",
       "target": "depthwizard_b_backend_app_services_inference_initialise",
       "relation": "calls",
       "_origin": "ast",
@@ -5092,7 +5056,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L82",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -5728,7 +5692,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L252",
+      "source_location": "L203",
       "weight": 1.0
     },
     {
@@ -5740,7 +5704,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L325",
+      "source_location": "L276",
       "weight": 1.0
     },
     {
@@ -5752,7 +5716,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L335",
+      "source_location": "L286",
       "weight": 1.0
     },
     {
@@ -5764,7 +5728,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L339",
+      "source_location": "L290",
       "weight": 1.0
     },
     {
@@ -5776,7 +5740,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L344",
+      "source_location": "L295",
       "weight": 1.0
     },
     {
@@ -5788,31 +5752,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L345",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_onnxsession_load",
-      "target": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_onnxsession_load",
-      "target": "depthwizard_b_backend_app_services_inference_py_path",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L114",
+      "source_location": "L296",
       "weight": 1.0
     },
     {
@@ -5824,7 +5764,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L281",
+      "source_location": "L232",
       "weight": 1.0
     },
     {
@@ -6704,18 +6644,6 @@
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "target": "depthwizard_b_backend_app_services_inference_py_path",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "generic_arg",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L65",
-      "weight": 1.0
-    },
-    {
       "source": "depthwizard_b_backend_app_services_inference_initialise",
       "target": "depthwizard_b_backend_app_services_inference_py_path",
       "relation": "references",
@@ -6724,7 +6652,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L290",
+      "source_location": "L241",
       "weight": 1.0
     },
     {
@@ -7964,6 +7892,18 @@
       "weight": 1.0
     },
     {
+      "source": "depthwizard_b_backend_app_services_inference_onnxsession_load",
+      "target": "depthwizard_b_backend_app_services_inference_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
       "source": "depthwizard_b_scripts_build_presets_extract_gcps",
       "target": "depthwizard_b_scripts_build_presets_py_ndarray",
       "relation": "references",
@@ -8128,7 +8068,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L204",
+      "source_location": "L155",
       "weight": 1.0
     },
     {
@@ -8140,7 +8080,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L301",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -8152,7 +8092,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L158",
+      "source_location": "L109",
       "weight": 1.0
     },
     {
@@ -8164,7 +8104,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L187",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -8176,7 +8116,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L175",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -8188,7 +8128,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L419",
+      "source_location": "L370",
       "weight": 1.0
     },
     {
@@ -8200,7 +8140,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L350",
+      "source_location": "L301",
       "weight": 1.0
     },
     {
@@ -8212,7 +8152,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L259",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -8694,7 +8634,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L98",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -9062,24 +9002,13 @@
     },
     {
       "source": "depthwizard_b_backend_app_services_inference",
-      "target": "depthwizard_b_backend_app_services_inference_onnxsession",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L100",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference",
       "target": "depthwizard_b_backend_app_services_inference_preprocess",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L175",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -9090,7 +9019,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L187",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -9101,7 +9030,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L204",
+      "source_location": "L155",
       "weight": 1.0
     },
     {
@@ -9112,7 +9041,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L259",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -9123,7 +9052,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L290",
+      "source_location": "L241",
       "weight": 1.0
     },
     {
@@ -9134,7 +9063,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L301",
+      "source_location": "L252",
       "weight": 1.0
     },
     {
@@ -9145,7 +9074,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L350",
+      "source_location": "L301",
       "weight": 1.0
     },
     {
@@ -9156,7 +9085,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L419",
+      "source_location": "L370",
       "weight": 1.0
     },
     {
@@ -9167,29 +9096,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L462",
+      "source_location": "L413",
       "weight": 1.0
     },
     {
       "source": "depthwizard_b_backend_app_services_inference",
-      "target": "depthwizard_b_backend_app_services_inference_reporthook",
+      "target": "depthwizard_b_backend_app_services_inference_onnxsession",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference",
-      "target": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L65",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -11086,24 +11004,13 @@
     },
     {
       "source": "depthwizard_b_backend_app_services_inference_onnxsession",
-      "target": "depthwizard_b_backend_app_services_inference_onnxsession_load",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L107",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_onnxsession",
       "target": "depthwizard_b_backend_app_services_inference_onnxsession_is_ready",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L154",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
@@ -11114,7 +11021,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L158",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "depthwizard_b_backend_app_services_inference_onnxsession",
+      "target": "depthwizard_b_backend_app_services_inference_onnxsession_load",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -11635,96 +11553,85 @@
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_101",
-      "target": "depthwizard_b_backend_app_services_inference_onnxsession",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L101",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_108",
-      "target": "depthwizard_b_backend_app_services_inference_onnxsession_load",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L108",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_159",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_110",
       "target": "depthwizard_b_backend_app_services_inference_onnxsession_run",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L159",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_176",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_127",
       "target": "depthwizard_b_backend_app_services_inference_preprocess",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L176",
+      "source_location": "L127",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_188",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_139",
       "target": "depthwizard_b_backend_app_services_inference_percentile_stretch",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L188",
+      "source_location": "L139",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_205",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_156",
       "target": "depthwizard_b_backend_app_services_inference_edge_snap",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L205",
+      "source_location": "L156",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_260",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_211",
       "target": "depthwizard_b_backend_app_services_inference_synthetic_depth",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L260",
+      "source_location": "L211",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_291",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_242",
       "target": "depthwizard_b_backend_app_services_inference_initialise",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L291",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "depthwizard_b_backend_app_services_inference_rationale_253",
+      "target": "depthwizard_b_backend_app_services_inference_infer_depth",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L253",
       "weight": 1.0
     },
     {
       "source": "depthwizard_b_backend_app_services_inference_rationale_302",
-      "target": "depthwizard_b_backend_app_services_inference_infer_depth",
+      "target": "depthwizard_b_backend_app_services_inference_sharpen_urban_geometry",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11734,36 +11641,47 @@
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_351",
-      "target": "depthwizard_b_backend_app_services_inference_sharpen_urban_geometry",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L351",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_426",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_377",
       "target": "depthwizard_b_backend_app_services_inference_sharpen_dsm_edges",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L426",
+      "source_location": "L377",
       "weight": 1.0
     },
     {
-      "source": "depthwizard_b_backend_app_services_inference_rationale_463",
+      "source": "depthwizard_b_backend_app_services_inference_rationale_414",
       "target": "depthwizard_b_backend_app_services_inference_dummy_mode",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L463",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "depthwizard_b_backend_app_services_inference_rationale_60",
+      "target": "depthwizard_b_backend_app_services_inference_onnxsession",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "depthwizard_b_backend_app_services_inference_rationale_67",
+      "target": "depthwizard_b_backend_app_services_inference_onnxsession_load",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "DepthWizard_B/backend/app/services/inference.py",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -12127,19 +12045,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "DepthWizard_B/backend/app/main.py",
-      "source_location": "L106",
-      "weight": 1.0
-    },
-    {
-      "source": "depthwizard_b_backend_app_services_inference_ensure_model_weights",
-      "target": "depthwizard_b_backend_app_services_inference_reporthook",
-      "relation": "indirect_call",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "argument",
-      "source_file": "DepthWizard_B/backend/app/services/inference.py",
-      "source_location": "L74",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -12215,6 +12121,5 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": [],
-  "built_at_commit": "c3bbe8fd6235de7a797a8238b47835a1a9fb0e58"
+  "hyperedges": []
 }

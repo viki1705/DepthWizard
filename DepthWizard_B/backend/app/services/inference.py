@@ -26,8 +26,11 @@ Public API
 from __future__ import annotations
 
 import logging
+import os
 from pathlib import Path
+import sys
 from typing import Optional
+import urllib.request
 
 import cv2
 import numpy as np
@@ -37,6 +40,44 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
+
+MODEL_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "models"))
+MODEL_PATH = os.path.join(MODEL_DIR, "da_v2_small.onnx")
+
+# Reliable mirror for Depth Anything V2 Small ONNX (~95 MB)
+MODEL_URL = "https://huggingface.co/onnx-community/Depth-Anything-V2-Small/resolve/main/onnx/model.onnx"
+
+
+def _reporthook(block_num: int, block_size: int, total_size: int) -> None:
+    downloaded = block_num * block_size
+    if total_size > 0:
+        percent = min(100.0, downloaded * 100.0 / total_size)
+        sys.stdout.write(
+            f"\r[DepthWizard] Downloading da_v2_small.onnx: {percent:.1f}% "
+            f"({downloaded / (1024*1024):.1f} MB / {total_size / (1024*1024):.1f} MB)"
+        )
+        sys.stdout.flush()
+    else:
+        sys.stdout.write(f"\r[DepthWizard] Downloading da_v2_small.onnx: {downloaded / (1024*1024):.1f} MB")
+        sys.stdout.flush()
+
+
+def ensure_model_weights(target_path: Optional[str | Path] = None) -> str:
+    path = str(target_path) if target_path else MODEL_PATH
+    model_dir = os.path.dirname(path)
+    os.makedirs(model_dir, exist_ok=True)
+    # Check if file is missing or corrupted/incomplete (less than 10 MB)
+    if not os.path.exists(path) or os.path.getsize(path) < 10 * 1024 * 1024:
+        print(f"[DepthWizard] ONNX model weights not found at {path}.")
+        print(f"[DepthWizard] Fetching Depth Anything V2 Small weights from Hugging Face...")
+        try:
+            urllib.request.urlretrieve(MODEL_URL, path, reporthook=_reporthook)
+            print("\n[DepthWizard] Model weights successfully downloaded and verified.")
+        except Exception as e:
+            print(f"\n[DepthWizard ERROR] Failed to download model weights: {e}")
+            raise e
+    return path
+
 
 _VIT_INPUT_SIZE: int = 518          # Depth-Anything-V2 ViT 14-patch constraint
 _PERCENTILE_LO: float = 2.0
@@ -68,6 +109,14 @@ class _OnnxSession:
         Attempt to load the ONNX model once.
         Sets _dummy_mode=True if the file is missing or loading fails.
         """
+        try:
+            resolved_path = ensure_model_weights(model_path)
+            model_path = Path(resolved_path)
+        except Exception as exc:
+            log.warning(
+                "⚠  Model download failed (%s) — checking existing file or dummy fallback.", exc
+            )
+
         if not model_path.exists():
             log.warning(
                 "⚠  Model NOT found at %s — running in SYNTHETIC DUMMY mode. "

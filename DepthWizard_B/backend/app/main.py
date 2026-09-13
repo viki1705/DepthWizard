@@ -72,7 +72,13 @@ async def lifespan(app: FastAPI):
     # 2. DB schema
     init_db()
 
-    # 3. Inference session
+    # 3. Model weights verification / auto-download
+    try:
+        inference_svc.ensure_model_weights()
+    except Exception as exc:
+        log.warning("⚠ Model weights check/download encountered an issue: %s", exc)
+
+    # 4. Inference session
     inference_svc.initialise()
 
     log.info(

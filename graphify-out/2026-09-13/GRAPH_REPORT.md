@@ -1,18 +1,13 @@
-# Graph Report - DepthWizard  (2026-09-13)
+# Graph Report - DepthWizard  (2026-09-08)
 
 ## Corpus Check
-- 69 files · ~1,199,090 words
+- 69 files · ~1,198,871 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 427 nodes · 635 edges · 33 communities (20 shown, 3 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.85)
+- 425 nodes · 629 edges · 33 communities (20 shown, 3 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `c3bbe8fd`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - calibrate
@@ -49,19 +44,19 @@
 7. `level_water_body()` - 11 edges
 8. `build_preset()` - 11 edges
 9. `get_preset()` - 10 edges
-10. `lifespan()` - 8 edges
+10. `get_gcps()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `ensure_data_dirs()`  [EXTRACTED]
   DepthWizard_B/scripts/build_presets.py → DepthWizard_B/backend/app/core/config.py
-- `lifespan()` --calls--> `ensure_model_weights()`  [EXTRACTED]
-  DepthWizard_B/backend/app/main.py → DepthWizard_B/backend/app/services/inference.py
 - `lifespan()` --calls--> `initialise()`  [EXTRACTED]
   DepthWizard_B/backend/app/main.py → DepthWizard_B/backend/app/services/inference.py
 - `build_preset()` --calls--> `get_connection()`  [EXTRACTED]
   DepthWizard_B/scripts/build_presets.py → DepthWizard_B/backend/app/models/db.py
 - `main()` --calls--> `init_db()`  [EXTRACTED]
   DepthWizard_B/scripts/build_presets.py → DepthWizard_B/backend/app/models/db.py
+- `_gcps_from_rows()` --calls--> `GCPAnchor`  [EXTRACTED]
+  DepthWizard_B/backend/app/routers/reconstruct.py → DepthWizard_B/backend/app/services/calibrator.py
 
 ## Import Cycles
 - None detected.
@@ -89,8 +84,8 @@ Cohesion: 0.08
 Nodes (23): 10. AI Pipeline, 11. UI Principles, 12. Folder Structure, 13. Environment Variables, 14. Non-Functional Requirements, 15. Future Scope (Out of Scope for Hackathon), 16. Final Product Flow, 1. Vision (+15 more)
 
 ### Community 5 - "inference.py"
-Cohesion: 0.09
-Nodes (32): dummy_mode(), _edge_snap(), ensure_model_weights(), infer_depth(), initialise(), _OnnxSession, _percentile_stretch(), _preprocess() (+24 more)
+Cohesion: 0.10
+Nodes (30): dummy_mode(), _edge_snap(), infer_depth(), initialise(), _OnnxSession, _percentile_stretch(), _preprocess(), ndarray (+22 more)
 
 ### Community 6 - "reconstruct.py"
 Cohesion: 0.05
@@ -160,7 +155,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **Why does `level_water_body()` connect `level_water_body` to `reconstruct.py`?**
   _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `calibrate()` connect `calibrate` to `reconstruct.py`?**
+- **Why does `reconstruct()` connect `reconstruct.py` to `calibrate`, `inference.py`, `level_water_body`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _89 weakly-connected nodes found - possible documentation gaps or missing edges._
